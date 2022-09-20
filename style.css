@@ -181,6 +181,10 @@ p {
         font-size: 1.45rem;
     }
 
+    h3:hover {
+        color: hsl(14, 88%, 65%);
+    }
+
     p {
         font-size: 1.2rem;
         margin: 1.25rem 0;
