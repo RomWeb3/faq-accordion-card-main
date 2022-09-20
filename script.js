@@ -3,7 +3,7 @@ const content = document.querySelectorAll('.content');
 
 
 
-for (let i=0; i < content.length; i++) {
+for (let i in content) {
 
     content[i].addEventListener('click', () => {
         content[i].classList.toggle('active');
